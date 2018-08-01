@@ -1,0 +1,26 @@
+﻿
+
+
+.whole {
+    background-color: lightgray;
+}
+
+.container h1, h2 {
+    text-align: center;
+    font-family: 'Tangerine';
+    color: aliceblue;
+}
+
+.container h1 {
+    font-size: 60px;
+}
+
+.container h2 {
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+.container img {
+    border: 1px solid black;
+    width: 100%;
+}
