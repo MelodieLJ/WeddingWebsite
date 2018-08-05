@@ -13,14 +13,38 @@
 
 .container h1 {
     font-size: 60px;
+    letter-spacing: 4px;
 }
 
 .container h2 {
     font-size: 40px;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
-.container img {
-    border: 1px solid black;
-    width: 100%;
+.container {
+ position: relative;
 }
+
+#cf {
+    position: relative;
+    height: auto;
+    width: auto;
+
+}
+
+    #cf img {
+        position: absolute;
+        
+        left: 0;
+        -webkit-transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -o-transition: opacity 1s ease-in-out;
+        transition: opacity 1s ease-in-out;
+        height: 350px;
+        width: auto;
+        border-radius: 15px;
+    }
+
+        #cf img.top:hover {
+            opacity: 0;
+        }
