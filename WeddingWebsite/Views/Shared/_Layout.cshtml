@@ -1,34 +1,22 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
-
     <environment include="Development">
         <link rel="stylesheet" href="/lib/css/bootstrap.css" />
     </environment>
     <environment exclude="Development">
         <link rel="stylesheet" href="/lib/css/bootstrap.min.css" />
     </environment>
-
     <meta charset="utf-8" />
-    <title>Wedding</title>
-    <link href="css/site.css" rel="stylesheet" />
-    <link href="http://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet" type="text/css" />
 </head>
 
-<body class="whole">
-    <div class="container">
-        <h2>You are cordially invited to celebrate the marriage of</h2>
-        <h1>Artem Shkumat and Melodie Joseph</h1>
+<body>
 
-        <div id="cf">
-            <img class="bottom" src="img/photo_by_ana.jpg" />
-            <img class="top" src="img/viaduct.jpg" />
-        </div>
-
-        <div>
-            <h2>Wedding date: 2nd of March, 2019</h2>
-        </div>
-    </div>
+    <section>
+        
+        @RenderBody()
+    </section>
 
     <environment include="Development">
         <script src="/lib/js/jquery-3.3.1.js"></script>
